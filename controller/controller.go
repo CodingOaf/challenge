@@ -25,3 +25,12 @@ func NewRouter(args string) *mux.Router {
 
 	return r
 }
+
+func period(parameter string) string {
+	if parameter == "a" {
+		return "30"
+	} else if parameter == "b" {
+		return "300"
+	}
+	return parameter
+}

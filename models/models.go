@@ -9,7 +9,7 @@ type User struct {
 	ResourceType string      `json:"resource_type"`
 	Name         string      `json:"name"`
 	Email        string      `json:"email, omitempty"`
-	Photo        string      `json:"photo", omitempty"`
+	Photo        string      `json:"photo, omitempty"`
 	Workspaces   []Workspace `json:"workspaces"`
 }
 
