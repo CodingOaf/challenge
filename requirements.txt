@@ -1,0 +1,2 @@
+1) URL https://app.asana.com/api/1.0
+2) Use PSA token -> 2/1210033934703040/1210033944640902:f082b99d5dad456c6e0d25290561b94e
